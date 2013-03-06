@@ -13,6 +13,8 @@ order to gain better insight and experience.
 This is an example of the Andrew algorithm coded in Python: 
 
 ```python
+from pycompgeom.predicates import *
+
 def andrew(points):
 	upper = []
 	lower = []
@@ -25,4 +27,8 @@ def andrew(points):
 		lower.append(point)
 	hull = lower[:-1]+ [x for x in reversed(upper[1:])]
 	return hull
+	
+points = getVPoints()
+hull = VPolygon2(Polygon2(andrew(points)))
+pause()
 ```
