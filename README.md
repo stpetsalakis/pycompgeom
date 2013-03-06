@@ -3,7 +3,7 @@ pycompgeom
 *pycompgeom* is a pure Python library that eventually will provide 
 Robust Geometric Computations and Visualizations _for ordinary mortals_.
 *pycompgeom* shares the same spirit and rationale behind the similar 
-py.CGAL.visual project and  tries to be self-contained by dropping the
+[py.CGAL.visual|http://cgi.di.uoa.gr/~compgeom/pycgalvisual/index.shtml] project and  tries to be self-contained by dropping the
 dependency of the CGAL-Python bindings.
 
 The primary goal of *pycompgeom* is to motivate students to implement 
