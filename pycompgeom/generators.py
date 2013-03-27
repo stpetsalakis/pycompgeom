@@ -47,7 +47,7 @@ def random_segments(num=15, color=RED, size=WINSIZE, visual=False):
 	if visual:
 		segments = [VSegment2(Segment2(x,y), color=color, update_window=False) for x,y in zip(p1,p2)]
 	else:
-		segments = [Segment(x,y) for x,y in zip(p1,p2)]
+		segments = [Segment2(x,y) for x,y in zip(p1,p2)]
 	
 	if visual:
 		window.segment_background_is_dirty = True
